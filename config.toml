@@ -1,0 +1,5 @@
+baseURL = 'http://clairecode.com/'
+languageCode = 'en-au'
+title = 'clairecode.com'
+contentdir = "content"
+publishdir = "public"
