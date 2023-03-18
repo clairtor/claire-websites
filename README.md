@@ -1,1 +1,1 @@
-# journal
+# journal.clairtor.com
