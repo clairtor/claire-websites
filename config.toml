@@ -1,0 +1,5 @@
+baseURL = 'http://clairtor.com/'
+languageCode = 'en-au'
+title = 'clairtor.com'
+contentdir = "content"
+publishdir = "public"
