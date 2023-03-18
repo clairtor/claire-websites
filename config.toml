@@ -1,5 +1,10 @@
 baseURL = 'http://clairecode.com/'
-languageCode = 'en-au'
-title = 'clairecode.com'
-contentdir = "content"
-publishdir = "public"
+languageCode = 'en-AU'
+title = 'clairecode'
+contentdir = "sites/clairecode.com/content"
+publishdir = "../public/clairecode.com"
+theme = "claire"
+[params]
+  author = 'Claire Weymouth'
+  description = "Claire Weymouth's technical and business website."
+  slogan = "Thinking, Implementing and Iterating"
