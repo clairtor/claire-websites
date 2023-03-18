@@ -1,5 +1,10 @@
 baseURL = 'http://clairtor.com/'
-languageCode = 'en-au'
-title = 'clairtor.com'
-contentdir = "content"
-publishdir = "public"
+languageCode = 'en-AU'
+title = 'Clairtör the Deströyör'
+contentdir = "sites/clairtor.com/content"
+publishdir = "../public/clairtor.com"
+theme = "claire"
+[params]
+  author = 'Claire Weymouth'
+  description = "Claire Weymouth's personal web site."
+  slogan = "Hi! I'm Claire, but you can think of me as Clairtör the Deströyör."

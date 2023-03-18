@@ -1,5 +1,4 @@
 +++
-title = "clairtör"
+title = "Home"
+date = 2023-03-01T10:00:00+10:00
 +++
-
-# Hi! I'm Clairtör the Deströyör
