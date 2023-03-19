@@ -1,2 +1,2 @@
-# clairtor-content
+# clairtor.com
 The content of clairtor.com
