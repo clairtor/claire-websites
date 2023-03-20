@@ -1,0 +1,56 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<section class="journal-list">
+  <header>Journal</header>
+  <div>
+    {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "journal"}}
+    <article>
+      <header>
+        <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+      </header>
+      <time datetime="{{.Date}}">
+        {{ .Date.Format "Monday" }} the {{ humanize .Date.Day }} of {{ .Date.Format "January 2006" }}
+      </time>
+      <footer>
+        <a href="{{ .Permalink }}">More</a>
+      </footer>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<section id="content" class="page-content">
+  <table>
+    <thead><h2>People</h2></thead>
+    {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "people"}}
+    <tr>
+      <td class="post-date-time date-time-font">
+        <time>{{ .Date.Format (.Site.Params.dateform | default "02 Jan 2006") }}</time>
+      </td>
+      <td class="post">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </td>
+    </tr>
+    {{ end }}
+  </table>
+</section>
+
+<section id="content" class="page-content">
+  <table>
+    <thead><h2>Quotes</h2></thead>
+    {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "quotes"}}
+    <tr>
+      <td class="post-date-time date-time-font">
+        <time>{{ .Date.Format (.Site.Params.dateform | default "02 Jan 2006") }}</time>
+      </td>
+      <td class="post">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </td>
+    </tr>
+    {{ end }}
+  </table>
+</section>
+
+{{ partial "footer.html" . }}
