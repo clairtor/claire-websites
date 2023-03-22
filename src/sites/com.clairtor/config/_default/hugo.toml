@@ -1,0 +1,10 @@
+# Common Settings
+
+baseURL = "http://clairtor.com/"
+languageCode = "en-AU"
+title = "Clairtör the Deströyör"
+theme = "claire-websites-theme"
+[params]
+  author = "Claire Weymouth"
+  description = "Claire Weymouth's personal web site."
+  slogan = "Hi! I'm Claire, but you can think of me as Clairtör the Deströyör."
