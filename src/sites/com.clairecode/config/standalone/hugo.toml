@@ -1,0 +1,5 @@
+# claire-websites Environment Settings
+# Use 'hugo --environment claire-websites'
+
+contentdir = "sites/com.clairecode/content"
+publishdir = "../public/com.clairecode"
