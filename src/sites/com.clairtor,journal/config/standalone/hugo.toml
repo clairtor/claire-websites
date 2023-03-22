@@ -3,4 +3,4 @@
 
 contentdir = "sites/com.clairtor.journal/content"
 publishdir = "../public/com.clairtor.journal"
-theme = 'claire'
+theme = "claire"
