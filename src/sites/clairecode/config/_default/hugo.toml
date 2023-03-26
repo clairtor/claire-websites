@@ -2,7 +2,7 @@
 baseURL = 'http://clairecode.com/'
 languageCode = 'en-AU'
 title = 'Clairecode'
-theme = "claire-websites-theme"
+theme = "claire"
 [params]
   author = "Claire Weymouth"
   description = "Claire Weymouth's technical and business website."

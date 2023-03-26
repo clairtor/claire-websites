@@ -1,0 +1,5 @@
+# Production Environment Settings
+# Used automatically by`hugo build`
+
+contentdir = "sites/clairecode/content"
+publishdir = "../public/clairecode"

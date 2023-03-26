@@ -1,5 +1,0 @@
-# claire-websites Environment Settings
-# Use 'hugo --environment claire-websites'
-
-contentdir = "sites/com.clairtor/content"
-publishdir = "../public/com.clairtor"

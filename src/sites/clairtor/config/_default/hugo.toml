@@ -3,7 +3,7 @@
 baseURL = "http://clairtor.com/"
 languageCode = "en-AU"
 title = "Clairtör the Deströyör"
-theme = "claire-websites-theme"
+theme = "claire"
 [params]
   author = "Claire Weymouth"
   description = "Claire Weymouth's personal web site."

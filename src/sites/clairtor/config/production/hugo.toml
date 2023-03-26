@@ -1,0 +1,5 @@
+# Production Environment Settings
+# Used automatically by`hugo build`
+
+contentdir = "sites/clairtor/content"
+publishdir = "../public/clairtor"
